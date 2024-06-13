@@ -2,3 +2,6 @@ jupyter
 jupyter-book
 matplotlib
 numpy
+langchain
+langchain-openai
+langserve[all]

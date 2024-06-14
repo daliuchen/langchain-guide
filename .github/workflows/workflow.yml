@@ -1,0 +1,26 @@
+name: publish book
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: build
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: python3.11
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - run: jupyter-book build  .
+      - run: ls -al
+
+

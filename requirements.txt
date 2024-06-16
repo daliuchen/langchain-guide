@@ -5,3 +5,4 @@ numpy
 langchain
 langchain-openai
 langserve[all]
+langsmith

@@ -5,3 +5,5 @@ format: jb-book
 root: intro
 chapters:
 - file: content/section_1
+- file: content/section_2
+

@@ -26,7 +26,7 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
       - run: jupyter-book build  .
-      - run: ls -al
+      - run: ls -al .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

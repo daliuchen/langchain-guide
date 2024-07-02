@@ -9,3 +9,4 @@ langsmith
 langchain_chroma
 langchain_community
 nltk
+langchainhub

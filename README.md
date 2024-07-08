@@ -13,3 +13,10 @@ jupyter-book build  .
 You can now access _build/html/index.html and enjoy!
 
 ![banner.png](banner.png)
+
+# plans
+1. 列举基本知识点，model，Prompt。outputParser ~ done
+2. chain的类型，和文本的结合，问答，汇总，路由链 
+3. 记忆的存储
+4. agent的入门，langGraph的的使用
+5. 一些有趣的例子

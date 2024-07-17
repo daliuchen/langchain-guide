@@ -12,3 +12,4 @@ nltk
 langchainhub
 lark
 networkx
+redis

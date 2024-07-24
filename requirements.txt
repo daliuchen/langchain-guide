@@ -13,3 +13,4 @@ langchainhub
 lark
 networkx
 redis
+wikipedia

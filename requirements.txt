@@ -14,3 +14,4 @@ lark
 networkx
 redis
 wikipedia
+faker
